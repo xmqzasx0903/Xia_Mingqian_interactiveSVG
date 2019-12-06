@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- import waypoint and gsap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <title>bar</title>
+</head>
+
+<body>
+    <h1 class="main-header">Cocktail description</h1>
+    <main>
+        <!-- if we were using a framework, these might be 6-col or something-->
+        <object data="images/map.svg" type="image/svg+xml" class="svg-graphic" id="map"></object>
+        <section id="beer1">
+            <div class="label_wrapper">
+                <h1 class="hidden">Plain old beer</h1>
+                <object data="images/happ_place.svg" type="image/svg+xml" class="svg-graphic" id="bottle"></object>
+                <span class="see-more" data-target="1">See More Info!</span>
+            </div>
+
+            <div class="text-wrapper">
+                <h3>The Happy Place</h3>
+            </div>
+        </section>
+
+        <section id="beer2">
+            <div class="label_wrapper">
+                <h1 class="hidden">Plain old beer</h1>
+                <object data="images/still_Pinapple.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+                <span class="see-more" data-target="2">See More Info!</span>
+            </div>
+
+            <div class="text-wrapper">
+                <h3>Still Life of a Pineapple</h3>
+            </div>
+        </section>
+
+        <section id="beer3">
+            <div class="label_wrapper">
+                <h1 class="hidden">Plain old beer</h1>
+                <object data="images/Bittered.svg" type="image/svg+xml" class="svg-graphic" id="glasses"></object>
+                <span class="see-more" data-target="3">See More Info!</span>
+            </div>
+
+            <div class="text-wrapper">
+                <h3>The Bittered Valley</h3>
+
+            </div>
+        </section>
+
+        <article class="popover">
+            <h4 class="CockName">IPA Rating</h4>
+            <div class="person_Name">Average Rating:</div>
+            <p class="Preparation">Preparation</p>
+        </article>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
